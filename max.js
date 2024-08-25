@@ -57,3 +57,7 @@ const maximum3 = maxOfThree(1220,50);
 const properMax = maxOfThree(maximum1, maximum2,maximum3);
 console.log('maximum of three is:', properMax);
 
+// another way
+
+const max = Math.max(3,30,300,3000)
+console.log('max using Math.max', max)
